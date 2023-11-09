@@ -12,6 +12,7 @@ const AccountList = () => {
     // Xử lý Modal thông tin tài khoản
     const [show, setShow] = useState(false);
     const [selectedAccount, setSelectedAccount] = useState({});
+    
     const handleShow = (id) => {
         setSelectedAccount(accounts.find(a => a.id == id));
         setShow(true);

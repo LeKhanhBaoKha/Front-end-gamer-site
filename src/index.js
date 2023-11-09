@@ -5,4 +5,4 @@ import App from './App';
 import LoadApi from './tab/LoadApi';
 import ProductIndex from './Products/ProductIndex';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<ProductIndex />);
+root.render(<LoadApi />);
