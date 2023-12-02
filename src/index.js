@@ -5,5 +5,7 @@ import App from "./App";
 import LoadApi from "./tab/LoadApi";
 import ProductIndex from "./Products/ProductIndex";
 import MyApp from "./test2";
+import ListProduct from "./ListProduct";
+import Clock from "./clock/Clock";
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<MyApp />);
+root.render(<Clock />);
