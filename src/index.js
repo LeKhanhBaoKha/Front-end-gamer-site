@@ -7,5 +7,6 @@ import ProductIndex from "./Products/ProductIndex";
 import MyApp from "./test2";
 import ListProduct from "./ListProduct";
 import Clock from "./clock/Clock";
+import DemoUseRef from "./ref/UseRef";
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Clock />);
+root.render(<DemoUseRef />);
